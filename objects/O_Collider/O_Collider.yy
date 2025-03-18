@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Monster",
+  "%Name":"O_Collider",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Character","path":"objects/O_Character/O_Character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Collider_Monster","path":"objects/O_Collider_Monster/O_Collider_Monster.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Monster",
+  "name":"O_Collider",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"S_Monster",
-    "path":"sprites/S_Monster/S_Monster.yy",
+    "name":"S_Collider",
+    "path":"sprites/S_Collider/S_Collider.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
