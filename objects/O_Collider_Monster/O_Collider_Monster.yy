@@ -6,8 +6,8 @@
   "name":"O_Collider_Monster",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Collider",
+    "path":"folders/Objects/Collider.yy",
   },
   "parentObjectId":null,
   "persistent":false,

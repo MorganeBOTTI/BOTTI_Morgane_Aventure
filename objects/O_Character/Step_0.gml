@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 67263D03
-/// @DnDArgument : "speed" "0"
-image_speed = 0;
-
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 3BD421F2

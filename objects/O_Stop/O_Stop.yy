@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_Pnj",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_Stop",
+  "eventList":[],
   "managed":true,
-  "name":"O_Pnj",
+  "name":"O_Stop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_JeanJacques",
-    "path":"sprites/S_JeanJacques/S_JeanJacques.yy",
+    "name":"S_Stop",
+    "path":"sprites/S_Stop/S_Stop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

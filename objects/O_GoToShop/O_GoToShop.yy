@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_Pnj",
+  "%Name":"O_GoToShop",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_Pnj",
+  "name":"O_GoToShop",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_JeanJacques",
-    "path":"sprites/S_JeanJacques/S_JeanJacques.yy",
+    "name":"S_GoToShop",
+    "path":"sprites/S_GoToShop/S_GoToShop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

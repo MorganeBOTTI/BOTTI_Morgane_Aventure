@@ -1,7 +1,12 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 2CC1778F
-/// @DnDArgument : "sprite" "S_Heart"
-/// @DnDArgument : "number" "PlayerLife"
-/// @DnDSaveInfo : "sprite" "S_Heart"
-var l2CC1778F_0 = sprite_get_width(S_Heart);var l2CC1778F_1 = 0;for(var l2CC1778F_2 = PlayerLife; l2CC1778F_2 > 0; --l2CC1778F_2) {	draw_sprite(S_Heart, 0, 0 + l2CC1778F_1, 0);	l2CC1778F_1 += l2CC1778F_0;}
+/// @DnDHash : 0DD3D587
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)var width = sprite_get_width(S_Heart);$(13_10)var l5BFB48F4_1 = 0;$(13_10)$(13_10)for(var l5BFB48F4_2 = PlayerLife; l5BFB48F4_2 > 0; --l5BFB48F4_2) {$(13_10)  draw_sprite_ext(S_Heart, -1, 0+ l5BFB48F4_1*0.25, 0 , 0.25,0.25,0, $FFFFFF & $ffffff, 1);$(13_10)  l5BFB48F4_1 += width;$(13_10)}$(13_10) "
+/// @description Execute Code
+var width = sprite_get_width(S_Heart);
+var l5BFB48F4_1 = 0;
+
+for(var l5BFB48F4_2 = PlayerLife; l5BFB48F4_2 > 0; --l5BFB48F4_2) {
+  draw_sprite_ext(S_Heart, -1, 0+ l5BFB48F4_1*0.25, 0 , 0.25,0.25,0, $FFFFFF & $ffffff, 1);
+  l5BFB48F4_1 += width;
+}
