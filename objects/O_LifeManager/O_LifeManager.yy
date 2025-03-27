@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Heart",
-    "path":"sprites/S_Heart/S_Heart.yy",
+    "name":"S_Heart_2",
+    "path":"sprites/S_Heart_2/S_Heart_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

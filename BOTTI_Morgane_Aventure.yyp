@@ -60,6 +60,7 @@
     {"id":{"name":"S_Collider_Monster","path":"sprites/S_Collider_Monster/S_Collider_Monster.yy",},},
     {"id":{"name":"S_Collider","path":"sprites/S_Collider/S_Collider.yy",},},
     {"id":{"name":"S_GoToShop","path":"sprites/S_GoToShop/S_GoToShop.yy",},},
+    {"id":{"name":"S_Heart_2","path":"sprites/S_Heart_2/S_Heart_2.yy",},},
     {"id":{"name":"S_Heart","path":"sprites/S_Heart/S_Heart.yy",},},
     {"id":{"name":"S_JeanJacques","path":"sprites/S_JeanJacques/S_JeanJacques.yy",},},
     {"id":{"name":"S_Monster","path":"sprites/S_Monster/S_Monster.yy",},},
