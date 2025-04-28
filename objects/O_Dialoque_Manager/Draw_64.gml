@@ -18,11 +18,10 @@ if(isTextDisplay == true){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDParent : 64C9F383
 	/// @DnDArgument : "x1" "50"
 	/// @DnDArgument : "y1" "720-230"
-	/// @DnDArgument : "y1_relative" "1"
 	/// @DnDArgument : "x2" "1620-50"
 	/// @DnDArgument : "y2" "720-30"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(50, y + 720-230, 1620-50, 720-30, 0);
+	draw_rectangle(50, 720-230, 1620-50, 720-30, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Alignment
 	/// @DnDVersion : 1.1
