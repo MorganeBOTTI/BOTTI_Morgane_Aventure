@@ -21,17 +21,24 @@ var l407E2464_0 = collision_rectangle(x + 0, y + 0, x + 640, y + 640, O_Characte
 		/// @DnDArgument : "script" "LoadDialogue"
 		/// @DnDArgument : "arg" ""Bonjour je m'appelle jean jacques et je suis chauve""
 		/// @DnDSaveInfo : "script" "LoadDialogue"
-		script_execute(LoadDialogue, "Bonjour je m'appelle jean jacques et je suis chauve");}
+		script_execute(LoadDialogue, "Bonjour je m'appelle jean jacques et je suis chauve");
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 3F86F207
+		/// @DnDParent : 3F3CD6F9
+		/// @DnDArgument : "steps" "60"
+		alarm_set(0, 60);}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDVersion : 1
-	/// @DnDHash : 1D7FD2CE
+	/// @DnDHash : 578EDB08
 	/// @DnDParent : 407E2464
 	/// @DnDArgument : "key" "vk_enter"
-	var l1D7FD2CE_0;l1D7FD2CE_0 = keyboard_check(vk_enter);if (l1D7FD2CE_0){	/// @DnDAction : YoYo Games.Common.Execute_Script
+	var l578EDB08_0;l578EDB08_0 = keyboard_check(vk_enter);if (l578EDB08_0){	/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
-		/// @DnDHash : 049B83D5
-		/// @DnDParent : 1D7FD2CE
+		/// @DnDHash : 52901A85
+		/// @DnDParent : 578EDB08
 		/// @DnDArgument : "script" "StopDialogue"
 		/// @DnDSaveInfo : "script" "StopDialogue"
 		script_execute(StopDialogue);}}
