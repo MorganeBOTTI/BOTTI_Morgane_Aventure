@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite14",
-    "path":"sprites/Sprite14/Sprite14.yy",
+    "name":"S_Tile_Tree",
+    "path":"sprites/S_Tile_Tree/S_Tile_Tree.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

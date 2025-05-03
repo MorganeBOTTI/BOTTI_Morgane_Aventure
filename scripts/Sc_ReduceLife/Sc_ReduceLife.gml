@@ -12,9 +12,9 @@ function Sc_ReduceLife(amount) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" "-amount"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "expr_1" "true"
-	/// @DnDArgument : "var" "O_LifeManager.PlayerLife"
+	/// @DnDArgument : "var" "global.HealthPlayer"
 	/// @DnDArgument : "var_1" "O_LifeManager.Invincible"
-	O_LifeManager.PlayerLife += -amount;
+	global.HealthPlayer += -amount;
 	O_LifeManager.Invincible = true;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm

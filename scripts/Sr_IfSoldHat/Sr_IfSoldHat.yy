@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sr_IfSoldHat",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Sr_IfSoldHat",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

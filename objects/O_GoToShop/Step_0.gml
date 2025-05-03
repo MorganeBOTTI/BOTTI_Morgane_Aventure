@@ -17,7 +17,7 @@ var l4999DF3C_0 = collision_rectangle(x + 0, y + 0, x + 512, y + 512, O_Characte
 	/// @DnDArgument : "key" "ord("A")"
 	var l292FD286_0;l292FD286_0 = keyboard_check(ord("A"));if (l292FD286_0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
-		/// @DnDHash : 3309F82F
+		/// @DnDHash : 3CBD3657
 		/// @DnDParent : 292FD286
 		/// @DnDArgument : "room" "R_Shop"
 		/// @DnDSaveInfo : "room" "R_Shop"
