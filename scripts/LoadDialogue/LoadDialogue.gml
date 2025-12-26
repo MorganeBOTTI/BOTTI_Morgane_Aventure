@@ -5,7 +5,9 @@
 /// @DnDInput : 2
 /// @DnDArgument : "funcName" "LoadDialogue"
 /// @DnDArgument : "arg" "TextValue"
-function LoadDialogue(TextValue, ) {	/// @DnDAction : YoYo Games.Common.Variable
+function LoadDialogue(TextValue, ) 
+{
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 53E562B9
 	/// @DnDInput : 3
@@ -17,4 +19,5 @@ function LoadDialogue(TextValue, ) {	/// @DnDAction : YoYo Games.Common.Variab
 	/// @DnDArgument : "var_2" "O_Character.spd"
 	O_Dialoque_Manager.isTextDisplay = true;
 	O_Dialoque_Manager.textToDisplay = TextValue;
-	O_Character.spd = 0;}
+	O_Character.spd = 0;
+}

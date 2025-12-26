@@ -4,7 +4,9 @@
 /// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 /// @DnDArgument : "funcName" "Sc_ReduceLife"
 /// @DnDArgument : "arg" "amount"
-function Sc_ReduceLife(amount) {	/// @DnDAction : YoYo Games.Common.Variable
+function Sc_ReduceLife(amount) 
+{
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1BE900A0
 	/// @DnDInput : 2
@@ -21,4 +23,5 @@ function Sc_ReduceLife(amount) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5BE26721
 	/// @DnDParent : 322AE75D
-	alarm_set(0, 30);}
+	alarm_set(0, 30);
+}

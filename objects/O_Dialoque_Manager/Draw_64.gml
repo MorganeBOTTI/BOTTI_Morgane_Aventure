@@ -3,7 +3,9 @@
 /// @DnDHash : 64C9F383
 /// @DnDArgument : "var" "isTextDisplay"
 /// @DnDArgument : "value" "true"
-if(isTextDisplay == true){	/// @DnDAction : YoYo Games.Drawing.Set_Color
+if(isTextDisplay == true)
+{
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
 	/// @DnDHash : 4ED50DA2
 	/// @DnDParent : 64C9F383
@@ -52,4 +54,5 @@ if(isTextDisplay == true){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDParent : 64C9F383
 	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)draw_text_ext(50+5,720-230+5,textToDisplay,25,1510)"
 	/// @description Execute Code
-	draw_text_ext(50+5,720-230+5,textToDisplay,25,1510)}
+	draw_text_ext(50+5,720-230+5,textToDisplay,25,1510)
+}

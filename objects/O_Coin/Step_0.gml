@@ -5,7 +5,10 @@
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "obj" "O_Character"
 /// @DnDSaveInfo : "obj" "O_Character"
-var l2E54525F_0 = collision_point(x + 0, y + 0, O_Character, true, 1);if((l2E54525F_0)){	/// @DnDAction : YoYo Games.Common.Variable
+var l2E54525F_0 = collision_point(x + 0, y + 0, O_Character, true, 1);
+if((l2E54525F_0))
+{
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 270CDBB2
 	/// @DnDParent : 2E54525F
@@ -18,4 +21,5 @@ var l2E54525F_0 = collision_point(x + 0, y + 0, O_Character, true, 1);if((l2E54
 	/// @DnDVersion : 1
 	/// @DnDHash : 24F44677
 	/// @DnDParent : 2E54525F
-	instance_destroy();}
+	instance_destroy();
+}

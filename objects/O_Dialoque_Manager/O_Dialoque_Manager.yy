@@ -26,8 +26,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"textToDisplay","filters":[],"listItems":[],"multiselect":false,"name":"textToDisplay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ligula et urna molestie, ac placerat elit cursus. Sed porttitor egestas ex, non pulvinar ipsum bibendum ut. Suspendisse potenti. Mauris non cursus velit, vel lacinia ante. Quisque in placerat lectus. Aliquam elementum quam in orci finibus pharetra. Nunc pulvinar erat vel vulputate aliquet. ","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"isTextDisplay","filters":[],"listItems":[],"multiselect":false,"name":"isTextDisplay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"textToDisplay","filters":[],"listItems":[],"multiselect":false,"name":"textToDisplay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat ligula et urna molestie, ac placerat elit cursus. Sed porttitor egestas ex, non pulvinar ipsum bibendum ut. Suspendisse potenti. Mauris non cursus velit, vel lacinia ante. Quisque in placerat lectus. Aliquam elementum quam in orci finibus pharetra. Nunc pulvinar erat vel vulputate aliquet. ","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"isTextDisplay","filters":[],"listItems":[],"multiselect":false,"name":"isTextDisplay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
